@@ -1,0 +1,146 @@
+body{
+	width: 90%;
+	margin: auto;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+#container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+
+#left  {
+	width: 40%;
+}
+
+#right  {
+	width: 58%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.invisable{
+	display: none;
+}
+
+.errorbox{
+	background-color: rgba(230, 57, 70, 0.2);
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.errorbox p {
+font-size: 0.7em;
+color: rgb(230, 57, 70);
+}
+
+input{
+	display: block;
+	width: 95%;
+	border-radius: 5px;
+	border:1px solid;
+	padding: 10px;
+	border-color: red;
+	outline: none;
+}
+
+input:focus {
+	box-shadow: 0 0 0 2pt #bbdef0;
+}
+
+#bn{
+	border-color: green;
+}
+.Entires{
+	border: 2px solid;
+	padding: 15px;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-bottom: 50px;
+}
+
+.budgetEntire{
+	border-color: green;
+}
+
+.expenseEntire{
+	border-color: red;
+}
+
+button{
+	background:none;
+	outline: none;
+	border:1.5px solid;
+	padding: 10px;
+	border-radius: 3px;
+	margin-top: 10px;
+	font-size: 0.8em;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+#budget-btn{
+	border-color: green;
+	color: green;
+}
+
+#expense-btn{
+	border-color: red;
+	color: red;
+}
+
+h3{
+	margin: 0;
+}
+
+
+i{
+	color:#1a659e;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.expensecontrols{
+	margin: 0;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
+.fa-trash{
+color: red;
+}
+
+#balanceshow{
+	margin-bottom: 95px;
+}
+
+.rightdiv{
+	line-height: 20px;
+}
+
+.expenses-p{
+	font-size: 2.2em;
+	margin-bottom: 60px;
+}
+
+.red{
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.expensecontrolsbox{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
