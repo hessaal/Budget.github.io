@@ -200,6 +200,8 @@ footer {
         -moz-box-ordinal-group: 2;
         box-ordinal-group: 2;
     }
-
+.rightdiv{
+	font-size: 1.1em;
+}
 
  }
