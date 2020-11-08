@@ -148,6 +148,28 @@ color: red;
 
 
 @media screen and (max-width: 800px) {
- #left, #right  {
-    width: 100%;
-}
+	  #container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+    }
+    #left {
+    	width: 100%;
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        box-ordinal-group: 3;
+    }
+    #right {
+    	width: 100%;
+    	border: 2px dashed grey;
+    	border-radius: 5px;
+    	margin-bottom: 50px;
+    	padding: 15px 0;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+    }
+ }
