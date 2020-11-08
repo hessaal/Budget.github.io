@@ -168,7 +168,7 @@ footer {
 }
 
 .fa-linkedin{
-   font-size: 1.3em;
+	 font-size: 1.3em;
     margin-top: 0px;
 }
 
@@ -205,5 +205,10 @@ footer {
 }
 i{
     font-size: 1.8em;
+}
+
+.vl {
+  border-left: 2px dashed grey;
+  height: auto;
 }
  }
