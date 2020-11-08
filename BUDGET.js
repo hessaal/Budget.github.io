@@ -23,6 +23,7 @@ document.getElementById("budgetspan").textContent = budget;
 balancespan.textContent = balance;
 balancecolor();
 budgetinput.value = "";
+window.location='#right';
 }
 });
 
@@ -41,6 +42,7 @@ balancecolor();
 expenses[expenseId-1].expenseTitle.style.textTransform = "capitalize";
 expense.value = ""; 
 document.getElementById("expenseTitle-text").value = "";
+window.location='#right';
 }	
 });
 
