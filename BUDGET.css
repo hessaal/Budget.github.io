@@ -73,6 +73,7 @@ input:focus {
 
 .expenseEntire{
 	border-color: red;
+	margin-bottom: 30px;
 }
 
 button{
@@ -146,8 +147,35 @@ color: red;
     margin-inline-end: 0px;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 5px 5px 0 0 ;
+  line-height: 0;
+}
+
+#footer {
+	color: #1a659e;
+	font-weight: bold;
+}
+
+.fa-linkedin{
+	 font-size: 1.3em;
+    margin-top: 0px;
+}
 
 @media screen and (max-width: 800px) {
+	input {
+		font-size: 16px;
+	}
 	  #container {
         display: -webkit-box;
         display: -moz-box;
@@ -172,4 +200,6 @@ color: red;
         -moz-box-ordinal-group: 2;
         box-ordinal-group: 2;
     }
+
+
  }
