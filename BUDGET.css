@@ -1,9 +1,10 @@
 body{
-	width: 90%;
+	max-width: 90%;
 	margin: auto;
 	font-family: 'Quicksand', sans-serif;
 
 }
+
 
 #container {
 	width: 100%;
@@ -143,4 +144,10 @@ color: red;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+
+@media screen and (max-width: 800px) {
+ #left, #right  {
+    width: 100%;
 }
