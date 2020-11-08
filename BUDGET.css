@@ -168,7 +168,7 @@ footer {
 }
 
 .fa-linkedin{
-	 font-size: 1.3em;
+   font-size: 1.3em;
     margin-top: 0px;
 }
 
@@ -201,7 +201,9 @@ footer {
         box-ordinal-group: 2;
     }
 .rightdiv{
-	font-size: 1.1em;
+	font-size: 1em;
 }
-
+i{
+    font-size: 2em;
+}
  }
