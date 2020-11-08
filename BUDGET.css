@@ -134,10 +134,14 @@ color: red;
 
 .red{
 	color: red;
+	word-break: break-all;
+	line-height: 30px;
 }
 
 .green {
 	color: green;
+	word-break: break-all;
+	line-height: 30px;
 }
 
 .expensecontrolsbox{
