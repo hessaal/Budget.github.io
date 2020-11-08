@@ -195,7 +195,7 @@ footer {
     	border: 2px dashed grey;
     	border-radius: 5px;
     	margin-bottom: 50px;
-    	padding: 15px 0;
+    	padding: 15px 5px;
         -webkit-box-ordinal-group: 2;
         -moz-box-ordinal-group: 2;
         box-ordinal-group: 2;
