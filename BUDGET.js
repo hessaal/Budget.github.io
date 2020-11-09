@@ -19,8 +19,16 @@ else{
 document.getElementById("budgetErrormsg").classList.add("invisable");
 budget = Number(budgetinput.value);
 balance = budget - totalexpenes;
-document.getElementById("budgetspan").textContent = budget;
-balancespan.textContent = balance;
+if (budget >1000){
+document.getElementById("budgetspan").textContent = splitnum(budget);
+}
+else{
+document.getElementById("budgetspan").textContent = budget;}
+if (balance >1000){
+balancespan.textContent = splitnum(balance);
+}
+else{
+balancespan.textContent = balance;}
 balancecolor();
 budgetinput.value = "";
 window.location='#container';
@@ -36,8 +44,15 @@ document.getElementById("expenseErrormsg").classList.add("invisable");
 createExpense();
 totalexpenes+=Number(expense.value);
 balance = budget - totalexpenes ; 
-document.getElementById("expensespan").textContent = totalexpenes;
-balancespan.textContent = balance;
+if (totalexpenes >1000){
+document.getElementById("expensespan").textContent = splitnum(totalexpenes);}
+else{
+document.getElementById("expensespan").textContent = totalexpenes;}
+if (balance >1000){
+balancespan.textContent = splitnum(balance);
+}
+else{
+balancespan.textContent = balance;}
 balancecolor();
 expenses[expenseId-1].expenseTitle.style.textTransform = "capitalize";
 expense.value = ""; 
@@ -112,3 +127,29 @@ expenses[id].expenseControls.remove();
 expenses.splice(id,1);
 expenseId--;
 }
+
+String.prototype.splice = function(idx, rem, str) {
+    return this.slice(0, idx) + str + this.slice(idx + Math.abs(rem));
+}
+
+function splitnum(num){
+  var numstr = num.toString();
+
+  if ((numstr.length % 3) == 0){
+    for (i=3;i<numstr.length;i+=4)
+    {
+      numstr = numstr.splice(i,0," ");
+      console.log(numstr);
+    }
+  }
+  else
+  {
+ for (i=numstr.length-3;i>0;i-=3)
+    {
+      numstr = numstr.splice(i,0," ");
+      console.log(numstr);
+    }
+  }
+  return numstr;
+}
+
