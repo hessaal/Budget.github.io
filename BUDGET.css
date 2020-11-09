@@ -178,6 +178,7 @@ footer {
 		font-size: 16px;
 	}
 	  #container {
+        font-size: 1em;
         display: -webkit-box;
         display: -moz-box;
         display: box;
