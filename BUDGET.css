@@ -13,6 +13,7 @@ body{
 	justify-content: space-between;
 	font-size: 1.2em;
 	margin-top: 30px;
+
 }
 
 #left  {
@@ -20,11 +21,18 @@ body{
 }
 
 #right  {
-	width: 58%;
-	display: flex;
-	justify-content: space-around;
+	width: 55%;
 	text-align: center;
 }
+
+table{
+	width: 100%;
+	table-layout: fixed;
+	vertical-align:middle;
+    word-wrap: break-word;
+    border-spacing: 5px;
+}
+
 
 .invisable{
 	display: none;
@@ -119,28 +127,17 @@ i{
 color: red;
 }
 
-#balanceshow{
-	margin-bottom: 95px;
-}
-
-.rightdiv{
-	line-height: 20px;
-}
-
 .expenses-p{
-	font-size: 2.2em;
-	margin-bottom: 60px;
+	font-size: 1.5em;
 }
 
 .red{
 	color: red;
-	word-break: break-all;
-	line-height: 30px;
+   	line-height: 30px;
 }
 
 .green {
 	color: green;
-	word-break: break-all;
 	line-height: 30px;
 }
 
@@ -204,9 +201,6 @@ footer {
         -moz-box-ordinal-group: 2;
         box-ordinal-group: 2;
     }
-.rightdiv{
-	font-size: 0.8em;
-}
 i{
     font-size: 1.8em;
 }
